@@ -7,10 +7,14 @@ class Program
         vehicules.Attach(new Car("Voiture", 0, 100, 10));
         vehicules.Attach(new Bike("Moto", 0, 100, 5));
 
+        Console.WriteLine(vehicules.ToString());
+
         MileageVisitor mileageVisitor = new MileageVisitor();
         FuelComsuptionVisitor fuelComsuptionVisitor = new FuelComsuptionVisitor();
 
         vehicules.Accept(mileageVisitor);
         vehicules.Accept(fuelComsuptionVisitor);
+
+        Console.WriteLine(vehicules.ToString());
     }
 }

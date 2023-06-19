@@ -16,7 +16,7 @@ namespace cc1
             this.consumption = consumption;
         }
 
-        public string Name
+        public string Brand
         {
             get { return brand; }
             set { brand = value; }
@@ -43,6 +43,11 @@ namespace cc1
         public override void Accept(IVisitor visitor)
         {
             visitor.Visit(this);
+        }
+
+        public override string? ToString()
+        {
+            return String.Format("Brand: {0}\n Milleage: {1}\n Fuel: {2}", brand, mileage.ToString(), fuel.ToString()) ;
         }
     }
 }

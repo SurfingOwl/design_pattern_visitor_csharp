@@ -21,5 +21,10 @@ namespace cc1
                 vehicule.Accept(visitor);
             }
         }
+
+        public override string? ToString()
+        {
+            return String.Join('\n', vehicules);
+        }
     }
 }
