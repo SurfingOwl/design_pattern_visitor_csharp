@@ -4,7 +4,8 @@ namespace cc1
     {
         public void Visit(Element element)
         {
-            throw new NotImplementedException();
+           Vehicule vehicule = element as Vehicule;
+           vehicule.mileage += 10.0;
         }
     }
 }
