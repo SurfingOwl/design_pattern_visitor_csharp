@@ -6,12 +6,14 @@ namespace cc1
         public string brand;
         public double mileage;
         public double fuel;
+        public double consumption;
 
-        public Vehicule(string brand, double mileage, double fuel)
+        public Vehicule(string brand, double mileage, double fuel, double consumption)
         {
             this.brand = brand;
             this.mileage = mileage;
             this.fuel = fuel;
+            this.consumption = consumption;
         }
 
         public string Name
@@ -30,6 +32,12 @@ namespace cc1
         {
             get { return fuel; }
             set { fuel = value; }
+        }
+
+        public double Consumption
+        {
+            get { return consumption; }
+            set { consumption = value; }
         }
 
         public override void Accept(IVisitor visitor)
