@@ -1,0 +1,15 @@
+/home/arthur/esgi/designPatterns/cc1/bin/Debug/net6.0/cc1
+/home/arthur/esgi/designPatterns/cc1/bin/Debug/net6.0/cc1.deps.json
+/home/arthur/esgi/designPatterns/cc1/bin/Debug/net6.0/cc1.runtimeconfig.json
+/home/arthur/esgi/designPatterns/cc1/bin/Debug/net6.0/cc1.dll
+/home/arthur/esgi/designPatterns/cc1/bin/Debug/net6.0/cc1.pdb
+/home/arthur/esgi/designPatterns/cc1/obj/Debug/net6.0/cc1.csproj.AssemblyReference.cache
+/home/arthur/esgi/designPatterns/cc1/obj/Debug/net6.0/cc1.GeneratedMSBuildEditorConfig.editorconfig
+/home/arthur/esgi/designPatterns/cc1/obj/Debug/net6.0/cc1.AssemblyInfoInputs.cache
+/home/arthur/esgi/designPatterns/cc1/obj/Debug/net6.0/cc1.AssemblyInfo.cs
+/home/arthur/esgi/designPatterns/cc1/obj/Debug/net6.0/cc1.csproj.CoreCompileInputs.cache
+/home/arthur/esgi/designPatterns/cc1/obj/Debug/net6.0/cc1.dll
+/home/arthur/esgi/designPatterns/cc1/obj/Debug/net6.0/refint/cc1.dll
+/home/arthur/esgi/designPatterns/cc1/obj/Debug/net6.0/cc1.pdb
+/home/arthur/esgi/designPatterns/cc1/obj/Debug/net6.0/cc1.genruntimeconfig.cache
+/home/arthur/esgi/designPatterns/cc1/obj/Debug/net6.0/ref/cc1.dll
